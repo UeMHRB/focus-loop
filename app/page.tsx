@@ -12,8 +12,8 @@ interface Session{
 }
 
 export default function Home() {
-    const [focusDuration, setFocusDuration] = useState(0.1);
-    const [breakDuration, setBreakDuration] = useState(0.1);
+    const [focusDuration, setFocusDuration] = useState(25);
+    const [breakDuration, setBreakDuration] = useState(5);
     const [sessions, setSessions] = useState<Session[]>([]);
     const [isDark, setIsDark] = useState(false);
 
